@@ -8,7 +8,7 @@ class Solution {
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
             
-            // Check if the complement already exists in map
+            // Check if the complement already exists 
             if (map.containsKey(complement)) {
                 // Found the two numbers — return their indices
                 return new int[] { map.get(complement), i };
