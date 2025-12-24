@@ -5,11 +5,11 @@ class Solution {
             sum += a;
         }
         Arrays.sort(capacity);
-        int n = capacity.length;
+        int m = capacity.length;
         int count = 0;
         int currentCapacity = 0;
 
-        for (int i = n - 1; i >= 0; i--) {
+        for (int i = m - 1; i >= 0; i--) {
             currentCapacity += capacity[i];
             count++;
             if (currentCapacity >= sum) {
