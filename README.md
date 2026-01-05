@@ -1,1 +1,1 @@
-Leetcode practices
+Leetcode practice questions
