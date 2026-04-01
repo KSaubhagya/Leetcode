@@ -3,7 +3,7 @@ class Solution(object):
         if not nums:
             return 0
         
-        i = 0  # pointer for unique 
+        i = 0  # pointer for unique elements
         
         for j in range(1, len(nums)):
             if nums[j] != nums[i]:
