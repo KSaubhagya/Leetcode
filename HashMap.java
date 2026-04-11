@@ -4,7 +4,7 @@ class Solution {
         // Create a HashMap to store number -> index mapping
         HashMap<Integer, Integer> map = new HashMap<>();
         
-        // Iterate through array
+        // Iterate through the array
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
             
