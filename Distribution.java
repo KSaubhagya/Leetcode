@@ -8,7 +8,7 @@ class Solution {
         int m = capacity.length;
         int count = 0;
         int currentCapacity = 0;
-
+    
         for (int i = m - 1; i >= 0; i--) {
             currentCapacity += capacity[i];
             count++;
