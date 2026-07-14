@@ -17,7 +17,6 @@ class Solution {
             // Otherwise, store the current number and its index
             map.put(nums[i], i);
         }
-        
         // This line will never be reached since the problem guarantees one solution
         throw new IllegalArgumentException("No two sum solution");
     }
