@@ -13,7 +13,7 @@ class Solution {
                 // Found the two numbers — return their indices
                 return new int[] { map.get(complement), i };
             }
-            
+    
             // Otherwise, store the current number and its index
             map.put(nums[i], i);
         }
