@@ -10,5 +10,3 @@ class Solution(object):
 
             triangle.append(row)
         return triangle
-
-     
