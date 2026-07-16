@@ -6,7 +6,7 @@ class Solution(object):
             row = [1] * (i + 1)  
 
             for j in range(1, i):
-                row[j] = triangle[i-1][j-1] + triangle[i-1][j]    # triangle[row_index][element_index] 
+                row[j] = triangle[i-1][j-1] + triangle[i-1][j]    #triangle[row_index][element_index] 
 
             triangle.append(row)
         return triangle
