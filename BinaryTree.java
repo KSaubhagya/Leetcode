@@ -4,7 +4,7 @@
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
- *     TreeNode() {} // constructor for treenode
+ *     TreeNode() {} // constructor for tree node
  *     TreeNode(int val) { this.val = val; }
  *     TreeNode(int val, TreeNode left, TreeNode right) {
  *         this.val = val;
