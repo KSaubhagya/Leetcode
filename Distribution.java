@@ -3,7 +3,7 @@ class Solution {
        int sum=0;
        for (int a : apple) {
             sum += a;
-        }
+}
         Arrays.sort(capacity);
         int m = capacity.length;
         int count = 0;
