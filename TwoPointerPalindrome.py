@@ -2,7 +2,7 @@ class Solution(object):
     def isPalindrome(self, s):
       left, right = 0, len(s) - 1
       while left < right:
-            # skip non-alphanumeric
+            # skip non alphanumeric
             while left < right and not s[left].isalnum():
                 left += 1
             while left < right and not s[right].isalnum():
