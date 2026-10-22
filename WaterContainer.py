@@ -9,7 +9,6 @@ class Solution(object):
             width = right - left
             h = min(height[left], height[right])
             area = width * h
-
             max_area = max(max_area, area)
 
             if height[left] < height[right]:
