@@ -10,7 +10,7 @@ class Solution(object):
         dp = [[False] * (n + 1) for _ in range(m + 1)]
         dp[0][0] = True
 
-        # Handle patterns that can match an empty string
+        # Handle patterns that can match empty string
         for j in range(2, n + 1):
             if p[j - 1] == '*':
                 dp[0][j] = dp[0][j - 2]
